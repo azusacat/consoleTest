@@ -53,8 +53,7 @@ namespace consoleTest0830
 		// public static Dictionary<string, Dictionary<string, string>> getServerJson()
 		public static List<aProd> getServerJson()
 		{
-			Console.WriteLine(@"Loading Asmart data...");
-			Console.WriteLine(@"Loading Asmart data...");
+			Console.WriteLine(@"Loading Asmart data..."); 
 			//List<string> resStockList = new List<string>();
 			//Dictionary<string, Dictionary<string, string>> resStockList = new Dictionary<string, Dictionary<string, string>>();
 
