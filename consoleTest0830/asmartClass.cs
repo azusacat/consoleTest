@@ -19,7 +19,7 @@ namespace consoleTest0830
 
 			public override string ToString()
 			{
-				return stock_message + " ID : " + id + "   Title: " + title + "   Name: " + name;
+				return stock_message + " ID : " + id + " Title: " + title + " Name: " + name;
 			}
 			public override bool Equals(object obj)
 			{
@@ -53,7 +53,8 @@ namespace consoleTest0830
 		// public static Dictionary<string, Dictionary<string, string>> getServerJson()
 		public static List<aProd> getServerJson()
 		{
-            Console.WriteLine(@"Loading Asmart data...");
+			Console.WriteLine(@"Loading Asmart data...");
+			Console.WriteLine(@"Loading Asmart data...");
 			//List<string> resStockList = new List<string>();
 			//Dictionary<string, Dictionary<string, string>> resStockList = new Dictionary<string, Dictionary<string, string>>();
 
