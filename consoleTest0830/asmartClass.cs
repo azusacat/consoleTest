@@ -8,7 +8,7 @@ using System.Text;
 
 namespace consoleTest0830
 {
-    public class Asmart
+    static class Asmart
 	{
 		public class aProd : IEquatable<aProd>
 		{
@@ -47,7 +47,7 @@ namespace consoleTest0830
 		public static string[] AsmartUrl = {
 			"http://www.asmart.jp/Form/Product/ProductList.aspx?shop=0&cat=100131&swrd=&sort=3&img=2&dcnt=60&search_kbn=&price_from=&price_to=&filter_new=&filter_reserve=&filter_privilege=&filter_fc=&saleable_kbn=0&genre=&sign=&campaign=&lang=JP",
 			"http://www.asmart.jp/Form/Product/ProductList.aspx?shop=0&cat=100131&swrd=&sort=3&img=2&dcnt=60&search_kbn=&price_from=&price_to=&filter_new=&filter_reserve=&filter_privilege=&filter_fc=&saleable_kbn=0&genre=&sign=&campaign=&lang=JP&pno=2",
-			"http://www.asmart.jp/Form/Product/ProductList.aspx?shop=0&cat=100131&swrd=&sort=3&img=2&dcnt=60&search_kbn=&price_from=&price_to=&filter_new=&filter_reserve=&filter_privilege=&filter_fc=&saleable_kbn=0&genre=&sign=&campaign=&lang=JP&pno=3",
+			"http://www.asmart.jp/Form/Product/ProductList.aspx?shop=0&cat=100131&swrd=&sort=3&img=2&dcnt=60&search_kbn=&price_from=&price_to=&filter_new=&filter_reserve=&filter_privilege=&filter_fc=&saleable_kbn=0&genre=&sign=&campaign=&lang=JP&pno=3"
 		};
 
 		// public static Dictionary<string, Dictionary<string, string>> getServerJson()
@@ -192,6 +192,7 @@ namespace consoleTest0830
 			}
 			//return text.PadRight(textLen - Encoding.GetEncoding("big5").GetBytes(text).Length);
 		}
+
 		public static void listToTable(List<aProd> resStockList)
 		{
 			Console.Clear();
